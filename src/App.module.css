@@ -1,0 +1,57 @@
+.container {   
+    padding: 1rem 2rem;
+    margin-left: 200px;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: black;
+    opacity: 0.8;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.sidebar ul {
+    margin: 20px 0 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar ul li {
+    padding: 5px 0 5px 30px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+h3, p {
+    min-width: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+    .sidebar {
+        width: 0;
+    }
+
+    .container {
+        margin-left: 0;
+    }
+
+    .sidebar ul li a {
+        color: transparent;
+    }
+    
+    .sidebar ul li a:hover {
+        color: transparent;
+    }
+}
+
