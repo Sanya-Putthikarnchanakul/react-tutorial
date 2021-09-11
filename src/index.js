@@ -1,14 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+//import App from './App';
+//import HelloMessage from './components/HelloMessage';
+//import Timer from './components/Timer';
+//import TodoApp from './components/TodoApp';
+import MarkdownEditor from './components/MarkdownEditor';
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+	<MarkdownEditor/>,
+	document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
