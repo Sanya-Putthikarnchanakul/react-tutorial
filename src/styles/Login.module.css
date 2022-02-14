@@ -1,0 +1,13 @@
+.loginPageContainer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EAEEF3;
+}
+
+.loginBoxContainer {
+    width: 30%;
+    margin: 0 auto;
+    padding: 2rem 5rem;
+}
